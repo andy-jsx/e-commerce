@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.nav-bar{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 1px;
+}
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 65%;
+}
+.nav-links{
+    list-style-type:none;
+    display: flex;
+    justify-content: space-between;
+}
+.links{
+    display: flex;
+    font-size: 25px;
+    align-content: center;
+}
+.logo{
+    width: 40px;
+}
+.icons{
+    transform: scale(1.1);
+    display: flex;
+    gap: 10px;
+}
