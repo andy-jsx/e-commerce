@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -13,5 +16,48 @@
 
 section{
     scroll-snap-align: start;
+}
+
+.caption-two{
+    /* padding-left:800px;
+    padding-bottom:300px; */
+    background: transparent;
+    color: white;
+    font-size:48px;
+    font-weight:bold;
+    text-shadow:2px 2px black;
+    font-family: 'Open Sans';
+    font-kerning:none;
+}
+
+.caption-one{
+    /* padding-left: 300px; */
+    background: transparent;
+    color: white;
+    font-size:48px;
+    font-weight:bold;
+    text-shadow:2px 2px black;
+    font-family: 'Open Sans';
+    font-kerning:none;
+}
+
+.text-one{
+    background: transparent;
+    color: white;
+    font-size:17px;
+    font-weight:bold;
+    text-shadow:1px 1px black;
+    font-family: 'Open Sans';
+    font-kerning:none;
+}
+
+.text-two{
+    background: transparent;
+    color: white;
+    font-size:17px;
+    font-weight:bold;
+    text-shadow:1px 1px black;
+    font-family: 'Open Sans';
+    font-kerning:none;
 
 }
