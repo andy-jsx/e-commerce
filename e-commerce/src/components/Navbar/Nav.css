@@ -22,14 +22,54 @@
 }
 .links{
     display: flex;
-    font-size: 25px;
+    font-size: 26px;
     align-content: center;
+    align-items: center;
 }
 .logo{
-    width: 40px;
+    width: 50px;
 }
 .icons{
     transform: scale(1.1);
     display: flex;
-    gap: 10px;
+    gap: 15px;
+    list-style-type: none;
 }
+
+.favorite{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ham{
+    visibility:hidden
+}
+
+
+@media (max-width: 390px){
+    .nav-menu{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 10px;
+        display: none;
+    }
+    .links{
+        display: flex;
+        font-size: 20px;
+        align-content: center;
+        align-items: center;
+    }
+    .ham{
+        visibility: visible;
+    }
+}
+

@@ -4,6 +4,7 @@ import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import './Nav.css'
 import logo from '../Assets/ganbarulogo.png'
+import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined';
 
 export default function Nav(){
     return(
@@ -18,15 +19,15 @@ export default function Nav(){
                             <Link to="/" style={{textDecoration:'none', color:'black', paddingLeft:'18px'}}> New </Link>
                         </li>
                     </ul>
-                    <li className ="icons">
-                        <FavoriteBorderIcon />
-                        <ShoppingCartOutlinedIcon />
-                    </li>
+                    <ul className ="icons">
+                        <li className='favorite'><FavoriteBorderIcon /> Favorite</li>
+                        <li className='shop'><ShoppingCartOutlinedIcon /> Cart</li>
+                    </ul>
+
                     
                 
                 </ul>
-
-        
+                <li className='ham'> <MenuOutlinedIcon> </MenuOutlinedIcon></li>
         </div>
     )
 }
